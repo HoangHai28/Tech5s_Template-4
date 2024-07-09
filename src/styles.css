@@ -1,0 +1,243 @@
+
+.bg-bt {
+    background: linear-gradient(180deg, #FFB469 0%, #E57709 100%);
+    transition:  1s;
+}
+.bg-bt:hover {
+    background: linear-gradient(180deg, #be5e26e3 100%, #E57709 100%);
+    transition: 1s;
+}
+.bt-header:hover {
+    background: linear-gradient(135deg, #3EED8B 0%, #0A9949 100%);
+    background-clip: text;
+    color: transparent;
+}
+.august {
+    background: linear-gradient(180deg, #50C577 90%, #2DBEFC 100%);
+    background-clip: text;
+    color: transparent;
+}
+.third {
+    background: linear-gradient(90deg, #2DBEFC 100%, #50C577 0%);
+    background-clip: text;
+    color: transparent;
+}
+.sign-up {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+    border-radius: 9999px;
+
+
+}
+.bg-sign-up {
+    background: linear-gradient(135deg, #3EED8B 0%, #0A9949 100%);
+    transition: color 0.5s;
+}
+.bg-sign-up:hover {
+    background: #04A4EC;
+    transition: 0.5s;
+}
+.bg-img {
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+}
+.background-layer {
+    background-image: url('/img/green.png');
+    background-repeat: no-repeat;
+}
+.bg-2 {
+    background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+
+}
+
+.people {
+    width: 100%;
+    height: 100%;
+  }
+.people-slide {
+    width: auto;
+}
+
+.people-slide img {
+    width: 95%;
+    height: auto;
+    
+  }
+
+  .doctor {
+    width: 100%;
+    height: 100%;
+  }
+.doctor-slide {
+    width: auto;
+    height: 100%;;
+}
+
+.doctor-slide img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .service {
+    width: 100%;
+    height: 100%;
+  }
+.service-slide {
+    width: 100%;
+    height: 100%;;
+}
+
+.service-slide img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+.bo {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* .bt-dk {
+    position: relative;
+    top: -480px;
+    left: 150px;
+} */
+
+.hover-up:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.doc1 {
+    background: linear-gradient(90deg, #9DDCB0 0%, #84D0FD 100%);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+.doc-sec1 {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 50px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.star {
+    color: rgba(255, 168, 0, 1);
+
+}
+.pgs {
+    color: rgba(10, 153, 73, 1);
+
+}
+.bt-doctor:hover {
+background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+
+}
+
+.i-cus:hover {
+    color: #2DBEFC;
+
+}
+
+.box_des {
+    display: none;
+}
+.box_show .minus-ic {
+    display: none;
+}
+.box_show.active .minus-ic {
+    display: block;
+}
+.box_show.active .plus-ic {
+    display: none;
+}
+
+.tab-items ul li.active{
+    border-bottom: 2px solid;
+    border-color: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+}
+
+.or:hover {
+    background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.floating-label-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.floating-label-group input {
+    border: 1px solid #ccc;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0.375rem;
+}
+.floating-label-group label {
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+.floating-label-group input:focus + label,
+.floating-label-group input:not(:placeholder-shown) + label {
+    top: -1rem;
+    left: 0.5rem;
+    font-size: 0.75rem;
+    color: #4299e1;
+}
+.floating-label-group input:focus {
+    border-color: #4299e1;
+    outline: none;
+}
+
+.bg-yc {
+    background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+    transition: color 0.5s ease-in-out;
+}
+
+.bg-ho:hover {
+    background: linear-gradient(90deg, #2d8149 100%, #2DBEFC 0%);
+    transition: 0.5s ease-in-out;
+
+}
+  /* footer */
+  .bg-foot {
+    background: linear-gradient(90deg, #1CAB55 0%, #04A4EC 100%);
+  }
+  .fa-facebook {
+    transition: color 0.3s; /* Smooth transition */
+  }
+  .fb:hover {
+    background: #4267B2; /* Color when hovering */
+    transition: 0.3s;
+  }
+  .fa-youtube {
+    transition: color 0.3s; /* Smooth transition */
+  }
+  .ytb:hover {
+    background: red; /* Color when hovering */
+    transition: 0.3s;
+  }
+  .fa-tiktok {
+    transition: color 0.3s; /* Smooth transition */
+  }
+  .tt:hover {
+    background: black; /* Color when hovering */
+    transition: 0.3s;
+  }

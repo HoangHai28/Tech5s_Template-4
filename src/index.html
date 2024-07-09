@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>  
+    <!-- header -->
+    <section class="relative z-50 xl:px-4 2xl:px-0">
+      <div class="container flex justify-between xl:my-10 my-5 mx-auto topnav">
+        <div class="">
+          <img src="/img/logo.png" alt="" />
+        </div>
+        <ul
+          id="myLinks"
+          class="lg:flex font-semibold 2xl:text-[16px] xl:text-[14px] lg:text-[11px] justify-center items-center font-lato xl:space-x-7 lg:space-x-4 hidden"
+        >
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Giới thiệu</a>
+          </li>
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Đối tượng khách hàng</a>
+          </li>
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Quy trình</a>
+          </li>
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Bảng giá</a>
+          </li>
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Cảm nhận của khách hàng</a>
+          </li>
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Đội ngũ bác sĩ</a>
+          </li>
+          <li class="bt-header hover:underline transition duration-700">
+            <a href="#">Hình ảnh & video</a>
+          </li>
+        </ul>
+        <a
+          href="#"
+          class="lg:flex rounded-full justify-center items-center bg-bt drop-shadow-2xl 2xl:w-[11%] lg:w-[13%] h-auto hidden"
+        >
+          <div
+            class="rounded-full bg-white w-[20%] h-[75%] flex justify-center items-center -ml-3"
+          >
+            <img src="/img/Group.png" />
+          </div>
+          <button
+            class="font-medium xl:pl-2 lg:pl-1 font-lato text-white xl:text-base lg:text-[12px]"
+          >
+            Gọi 1900 1806
+          </button>
+        </a>
+        <div class="lg:hidden pr-10">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Baner -->
+    <section>
+      <div class="ml-10 2xl:mt-0 lg:mt-10 xl:block hidden">
+        <img src="/img/3cham.png" alt="" />
+      </div>
+      <div class="container mx-auto xl:-mt-20 lg:mt-20 ">
+        <div class="xl:flex">
+          <div class="xl:mt-0 text-center xl:text-left xl:pl-4 2xl:pl-0">
+            <p class="xl:text-[55px] text-[40px] lg:text-[64px] font-bold font-lato">
+              Hãy để đôi mắt là<br class="2xl:hidden block"> cửa sổ <br class="hidden 2xl:block" />
+              của tâm hồn
+            </p>
+            <p class="mt-5 md:px-0 px-3">
+              Ortho-K (Orthokeratology - tạo hình giác mạc) là phương pháp sử
+              dụng kính áp tròng cứng<br class="xl:block hidden" />
+              được thiết kế đặc biệt với mỗi người để định hình tạm thời giác
+              mạc và cải thiện thị lực.<br class="xl:block hidden" />
+              Kính Ortho-K thường đeo vào ban đêm để định hình lại bề mặt trước
+              của mắt.
+            </p>
+            <p class="md:mt-10 text-lg font-bold mt-5 ">
+              Siêu khuyến mãi
+              <span class="august text-3xl sm:text-4xl font-bold">tháng 8</span>, giảm ngay
+              <span class="third text-3xl sm:text-4xl font-bold">30%</span> khi đăng ký tại
+              đây!
+            </p>
+            <div
+              class="flex justify-center items-center xl:block rounded-full"
+            >
+              <div
+                class="mt-5 flex justify-between sign-up border xl:h-auto lg:h-[14%] xl:w-[90%] md:w-[60%] w-[90%]"
+              >
+                <input
+                  type="text"
+                  placeholder="Nhập số điện thoại..."
+                  class="outline-none w-[40%] ml-5"
+                />
+                <a
+                  href="#"
+                  class="flex justify-center items-center bg-sign-up xl:w-[25%] lg:w-[30%] rounded-full my-1 mr-1 py-2 "
+                >
+                  <img
+                    src="/img/maybay.png"
+                    class="w-auto h-[65%] my-auto pr-2"
+                  />
+                  <button class="text-white font-bold md:text-base text-[14px] font-lato">
+                    Gửi thông tin
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="lg:-mt-60 mt-20 ">
+            <div class="bg-img xl:absolute top-0 right-0 xl:w-[45%] 2xl:w-auto">
+              <div class="hidden 2xl:block  ">
+                <img src="/img/imgbaner.png" />
+              </div>
+              <div class="2xl:hidden xl:block mt-20">
+                <img src="/img/img-baner-2.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="xl:flex justify-center items-center 2xl:mt-[170px] xl:ml-60 hidden">
+          <img src="/img/nhieucham.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Tầm quan trọng -->
+    <section class="relative xl:px-4 2xl:px-0">
+      <div class="absolute -top-40 left-20">
+        <img src="/img/green.png" />
+      </div>
+      <div class="container mx-auto lg:mt-80 xl:mt-20 -mt-10 relative px-3 xl:px-0">
+        <div class="xl:flex xl:justify-between">
+          <p class=" text-[25px] md:text-[40px] xl:text-[35px] 2xl:text-[40px] font-bold font-lato ">
+            Tầm quan trọng của việc sử<br class="xl:block 2xl:hidden"> dụng<br class="2xl:block hidden" />
+            kính Ortho-K
+          </p>
+          <div>
+            <div class="absolute right-0  top-[200px]">
+              <img src="/img/Union.png" alt="" />
+            </div>
+            <p class="xl:mt-0 lg:mt-2">
+              Kính Ortho-K là phương pháp sử dụng kính áp tròng cứng được thiết
+              kế đặc biệt với mỗi người để<br class="lg:block hidden" />
+              định hình tạm thời giác mạc và cải thiện thị lực. Kính Ortho-K
+              thường đeo vào ban đêm để định<br class="xl:block hidden" />
+              hình lại bề mặt trước của mắt.<br class="xl:block hidden" />
+              Mà không đem tới bất kỳ tổn thương nào cho mắt.
+            </p>
+            <p class="mt-3">
+              Nhiều nghiên cứu lâm sàng cho thấy kính Ortho K mang lại hiệu quả
+              trong việc giảm tiến triển tật<br class="xl:block hidden" />
+              khúc xạ khoảng 50% ở trẻ và thậm chí một số trẻ có kết quả tốt
+              hơn. Ngoài ra, kính Ortho-K có<br class="xl:block hidden" />
+              những ưu điểm sau:
+            </p>
+            <a
+              href="#"
+              class="flex justify-center items-center bg-bt  rounded-full xl:w-[30%] lg:w-[20%] sm:w-[30%] w-[45%] mt-5 "
+            >
+              <img src="/img/tuvan.png" alt="" />
+              <button class="text-white pl-2 py-3">
+                ĐĂNG KÝ TƯ VẤN
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="sm:flex justify-between mt-20">
+          <div class="text-center sm:text-left">
+            <div class="flex justify-center items-center sm:block">
+             <img src="/img/mat.png" alt="" /> 
+            </div>
+            <p class="text-[20px] font-bold mt-4">Phục hồi thị lực</p>
+            <p class="mt-2">
+              Điều chỉnh độ cận, viễn và thậm<br class="xl:hidden block" />
+              chí loạn thị từ nhẹ<br class="xl:block hidden" />
+              đến nặng giúp<br class="xl:hidden block" />
+              thị lực phục hồi vào ban ngày
+            </p>
+          </div>
+          <div class="text-center sm:text-left mt-10 sm:mt-0">
+            <div class="flex justify-center items-center sm:block">
+              <img src="/img/thehtao.png" alt="" />
+            </div> 
+            <p class="text-[20px] font-bold mt-4">Tự do hoạt động</p>
+            <p class="mt-2">
+              Điều chỉnh độ cận, viễn và thậm<br class="xl:hidden block" />
+              chí loạn thị từ nhẹ<br class="xl:block hidden" />
+              đến nặng giúp<br class="xl:hidden block" />
+              thị lực phục hồi vào ban ngày
+            </p>
+          </div>
+          <div class="text-center sm:text-left mt-10 sm:mt-0">
+            <div class="flex justify-center items-center sm:block">
+              <img src="/img/kinhmat.png" alt="" />
+            </div>
+            <p class="text-[20px] font-bold mt-4">Khắc phục khô mắt</p>
+            <p class="mt-2">
+              Điều chỉnh độ cận, viễn và thậm<br class="xl:hidden block" />
+              chí loạn thị từ nhẹ<br class="xl:block hidden" />
+              đến nặng giúp<br class="xl:hidden block" />
+              thị lực phục hồi vào ban ngày
+            </p>
+          </div>
+        </div>
+        <div class="sm:flex justify-between sm:mt-20">
+          <div class="text-center sm:text-left sm:mt-0 mt-10">
+            <div class="flex justify-center items-center sm:block">
+              <img src="/img/antoan.png" alt="" />
+            </div>
+            <p class="text-[20px] font-bold mt-4">Không cần phẫu thuật</p>
+            <p class="mt-2">
+              Điều chỉnh độ cận, viễn và thậm<br class="xl:hidden block" />
+              chí loạn thị từ nhẹ<br class="xl:block hidden" />
+              đến nặng giúp<br class="xl:hidden block" />
+              thị lực phục hồi vào ban ngày
+            </p>
+          </div>
+          <div class="text-center sm:text-left sm:mt-0 mt-10">
+            <div class="flex sm:block justify-center items-center">
+               <img src="/img/tym.png" alt="" />
+            </div>
+            <p class="text-[20px] font-bold mt-4">Thị lực được cải thiện</p>
+            <p class="mt-2">
+              Điều chỉnh độ cận, viễn và thậm<br class="xl:hidden block" />
+              chí loạn thị từ nhẹ<br class="xl:block hidden" />
+              đến nặng giúp<br class="xl:hidden block" />
+              thị lực phục hồi vào ban ngày
+            </p>
+          </div>
+          <div class="text-center sm:text-left sm:mt-0 mt-10">
+            <div class="flex sm:block justify-center items-center">
+             <img src="/img/like.png" alt="" /> 
+            </div>
+            <p class="text-[20px] font-bold mt-4">Sử dụng đơn giản</p>
+            <p class="mt-2">
+              Điều chỉnh độ cận, viễn và thậm<br class="xl:hidden block" />
+              chí loạn thị từ nhẹ<br class="xl:block hidden" />
+              đến nặng giúp<br class="xl:hidden block" />
+              thị lực phục hồi vào ban ngày
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lời khuyên -->
+    <section class="relative xl:px-4 2xl:px-0">
+      <div class="container md:mt-40 mt-10 mx-auto ">
+        <div class="md:flex px-3 xl:px-0 ">
+          <div>
+            <p class="text-[30px] md:text-[40px] font-bold font-lato">
+              Ai nên sử dụng kính Ortho-K?
+            </p>
+            <p class="mt-5 font-lato">
+              Ortho-K là phương pháp kiểm soát tật khúc xạ tối ưu, an toàn nhất
+              hiện nay dành cho người lớn<br class="md:block hidden" />
+              và trẻ em mà không cần phẫu thuật. Đối tượng có thể sử dụng kính
+              Ortho K bao gồm:
+            </p>
+          </div>
+          <div class="lg:-mt-20 mt-5 sm:-mt-20 lg:ml-20">
+            <img src="/img/Vector.png" alt="" />
+          </div>
+        </div>
+         <div class="float-end flex space-x-4 sm:-mt-20 -mt-[50px] mr-3 sm:mr-0" style="color: gray;">
+              <div class="dis-prev border  rounded-full bg-white drop-shadow-2xl p-3 i-cus">
+                <i class="fa-solid fa-arrow-left fa-lg   "></i>
+              </div>
+              <div class="dis-next border rounded-full bg-white drop-shadow-2xl p-3 i-cus">
+                <i class="fa-solid fa-arrow-right fa-lg "></i>
+              </div>
+            </div>
+        <div class="2xl:w-[calc(100%+1rem)] mx-3 xl:mx-0">
+          <div class="swiper people mySwiper mt-20">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide people-slide bg-2 bo">
+                <div class="flex justify-center items-center mt-2">
+                  <img src="/img/2chi.jpg" class="bo" />
+                </div>
+                <div class="ml-5 text-white my-10">
+                  <p class="text-[20px] font-semibold font-lato">
+                    Người bị cận thị
+                  </p>
+                  <p class="font-lato mt-2">
+                    Người bị cận thị (dưới 10 độ) không kèm hoặc kèm<br />
+                    loạn thị từ 3 độ trở xuống
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide people-slide bg-2 bo md:mt-40">
+                <div class="flex justify-center items-center mt-2">
+                  <img src="/img/emgai.png" class="bo" />
+                </div>
+                <div class="ml-5 text-white my-10">
+                  <p class="text-[20px] font-semibold font-lato">
+                    Trẻ em dưới 18 tuổi
+                  </p>
+                  <p class="font-lato mt-2">
+                    Trẻ em dưới 18 tuổi chưa đủ độ tuổi để phẫu thuật
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide people-slide bg-2 bo">
+                <div class="flex justify-center items-center mt-2">
+                  <img src="/img/chigai.png" class="bo" />
+                </div>
+                <div class="ml-5 text-white my-10">
+                  <p class="text-[20px] font-semibold font-lato">
+                    Chưa có tiền sử phẫu thuật
+                  </p>
+                  <p class="font-lato mt-2">
+                    Người chưa có tiền sử phẫu thuật cận thị hoặc các loại phẫu
+                    thuật mắt khác
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide people-slide bg-2 bo md:mt-40">
+                <div class="flex justify-center items-center mt-2">
+                  <img src="/img/anhzai.png" class="bo" />
+                </div>
+                <div class="ml-5 text-white my-10">
+                  <p class="text-[20px] font-semibold font-lato">
+                    Người không có các bệnh lý
+                  </p>
+                  <p class="font-lato mt-2">
+                    Người không có các bệnh lý về bề mặt nhãn cầu
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide people-slide bg-2 bo">
+                <div class="flex justify-center items-center mt-2">
+                  <img src="/img/2chi.jpg" class="bo" />
+                </div>
+                <div class="ml-5 text-white my-10">
+                  <p class="text-[20px] font-semibold font-lato">
+                    Người bị cận thị
+                  </p>
+                  <p class="font-lato mt-2">
+                    Người bị cận thị (dưới 10 độ) không kèm hoặc kèm<br />
+                    loạn thị từ 3 độ trở xuống
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ml-20 sm:block hidden">
+        <img src="/img/Union.png" alt="" />
+      </div>
+      <div class="absolute  xl:top-40 bottom-10">
+        <img src="/img/Song.png" alt="" />
+      </div>
+    </section>
+    <!-- Tại sao -->
+    <section class="relative">
+      <div class="container mx-auto xl:mt-20">
+        <div class="xl:flex">
+          <div class="md:mt-[140px] mt-20 xl:mt-3 2xl:mt-[140px] px-2">
+            <div class="xl:ml-0 ml-3">
+              <p class="text-[30px] md:text-[40px] font-bold">
+                Tại sao nên chọn gói Ortho-K tại<br class="xl:block hidden" />
+                Bệnh viện Đa khoa Phương Đông?
+              </p>
+              <p class="mt-5">
+                Hiện nay, tại Bệnh viện Đa khoa Phương Đông đáp ứng đầy đủ từ
+                đội ngũ bác sĩ có trình độ<br class="xl:block hidden" />
+                chuyên môn cao, cơ sở vật chất, trang thiết bị kỹ thuật hiện đại
+                giúp quá trình thăm khám và<br class="xl:block hidden" />
+                điều trị các bệnh về tật khúc xạ an toàn, chính xác. Khi đăng ký
+                sử dụng gói kính Ortho - K tại<br class="xl:block hidden" />
+                bệnh viện Phương Đông, khách hàng được trải nghiệm dịch vụ y tế
+                chất lượng cao cùng với các<br class="xl:block hidden" />
+                ưu điểm vượt trội sau
+              </p>
+            </div>
+            <div class="2xl:mt-10 relative z-10 mx-3 md:mx-0 flex justify-center items-center">
+              <div class="flex-col  md:space-y-10 space-y-5 xl:mt-10  ">
+                <div
+                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5"
+                >
+                  <div class="flex justify-center items-center">
+                    <img src="/img/traitim.png" alt="" />
+                  </div>
+                  <div class="text-center mt-5">
+                    <p class="font-semibold">Đội ngũ bác sĩ giàu kinh nghiệm</p>
+                    <p class="mt-2">
+                      Hiện nay, tại Bệnh viện Đa khoa Phương<br />
+                      Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5 "
+                >
+                  <div class="flex justify-center items-center">
+                    <img src="/img/chatluong.png" alt="" />
+                  </div>
+                  <div class="text-center mt-5">
+                    <p class="font-semibold">
+                      Đảm bảo chất lượng an toàn tuyệt đối
+                    </p>
+                    <p class="mt-2">
+                      Hiện nay, tại Bệnh viện Đa khoa Phương<br />
+                      Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-col ml-5 2xl:mt-20 xl:mt-10">
+                <div
+                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5"
+                >
+                  <div class="flex justify-center items-center">
+                    <img src="/img/thietbi.png" alt="" />
+                  </div>
+                  <div class="text-center mt-5">
+                    <p class="font-semibold">Trang thiết bị hiện đại</p>
+                    <p class="mt-2">
+                      Hiện nay, tại Bệnh viện Đa khoa Phương<br />
+                      Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5 md:mt-10 mt-5"
+                >
+                  <div class="flex justify-center items-center">
+                    <img src="/img/cocnuoc.png" alt="" />
+                  </div>
+                  <div class="text-center mt-5">
+                    <p class="font-semibold">Dịch vụ chuyên nghiệp</p>
+                    <p class="mt-2">
+                      Hiện nay, tại Bệnh viện Đa khoa Phương<br />
+                      Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.
+                    </p>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+             <!-- mobile -->
+              <div class="flex justify-center"> 
+                <a
+                      href="#"
+                      class="flex justify-center items-center bg-bt rounded-full md:w-[25%] w-[55%] h-[100%] mt-10 xl:hidden"
+                    >
+                      <img src="/img/tuvan.png" alt="" />
+                      <button class="text-white pl-2 py-3">
+                        ĐĂNG KÝ TƯ VẤN
+                      </button>
+                    </a>
+              </div>
+                  <!-- mobile2 -->
+          </div>
+          <div class="">
+            
+            <div class="bg-img absolute z-10 xl:right-0 xl:block hidden xl:w-[45%] 2xl:w-auto">
+              <div class="2xl:block hidden">
+                <img src="/img/doctor.png" />
+              </div>
+              <div class="xl:block 2xl:hidden">
+                <img src="/img/img-why.png" />
+              </div>
+               <div class="absolute top-[45%] 2xl:left-[19%] xl:left-[10%]">
+              <a
+             href="#"
+             class="flex justify-center items-center bg-bt rounded-full px-3  bt-dk"
+           >
+             <img src="/img/tuvan.png" alt="" />
+             <button class="text-white pl-2 xl:py-3 lg:py-4">
+               ĐĂNG KÝ TƯ VẤN
+             </button>
+           </a>
+         </div>
+            </div>
+           
+           
+          
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="absolute top-60 z-0 right-0 w-[60%]">
+        <img src="/img/green.png" alt="" />
+      </div>
+    </section>
+    <!-- Đội ngũ bác sĩ -->
+    <section class="relative">
+      <div class="container xl:mx-auto ">
+        <div class="lg:flex xl:mt-[100px] lg:ml-10 xl:ml-0 hidden">
+          <img src="/img/Vector.png" class="float-start" />
+        </div>
+        <p class="font-lato font-bold text-[30px] md:text-[40px] mx-auto text-center 2xl:mt-10">
+          Đội ngũ bác sĩ của chúng tôi
+        </p>
+        <div class=" mt-10 xl:mx-0 mx-3 xl:px-4 2xl:px-0">
+          <div class="swiper doctor doctorSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+                <div class="doc1 flex justify-center items-center">
+                  <div class="w-[60%]">
+                    <img src="/img/doc1.png" alt="" />
+                  </div>
+                </div>
+                <div class="text-center mt-5">
+                  <p class="font-lato font-bold text-[18px]">
+                    NGUYỄN TRUNG CHÍNH
+                  </p>
+                  <p class="font-lato text-[14px] pgs mt-2">
+                    PGS.TS. Bác sĩ Ung bướu
+                  </p>
+                  <div class="flex justify-center items-center mt-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="size-4 star"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <p class="opacity-70 text-[12px] mt-2">
+                    4.8/5 (38 bình chọn)
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+                <div class="doc1 flex justify-center items-center">
+                  <div class="w-[60%]">
+                    <img src="/img/doc2.png" alt="" />
+                  </div>
+                </div>
+                <div class="text-center mt-5">
+                  <p class="font-lato font-bold text-[18px]">
+                    NGUYỄN TRUNG CHÍNH
+                  </p>
+                  <p class="font-lato text-[14px] pgs mt-2">
+                    PGS.TS. Bác sĩ Ung bướu
+                  </p>
+                  <div class="flex justify-center items-center mt-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="size-4 star"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <p class="opacity-70 text-[12px] mt-2">
+                    4.8/5 (38 bình chọn)
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+                <div class="doc1 flex justify-center items-center">
+                  <div class="w-[60%]">
+                    <img src="/img/doc3.png" alt="" />
+                  </div>
+                </div>
+                <div class="text-center mt-5">
+                  <p class="font-lato font-bold text-[18px]">
+                    NGUYỄN TRUNG CHÍNH
+                  </p>
+                  <p class="font-lato text-[14px] pgs mt-2">
+                    PGS.TS. Bác sĩ Ung bướu
+                  </p>
+                  <div class="flex justify-center items-center mt-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="size-4 star"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <p class="opacity-70 text-[12px] mt-2">
+                    4.8/5 (38 bình chọn)
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+                <div class="doc1 flex justify-center items-center">
+                  <div class="w-[60%]">
+                    <img src="/img/doc4.png" alt="" />
+                  </div>
+                </div>
+                <div class="text-center mt-5">
+                  <p class="font-lato font-bold text-[18px]">
+                    NGUYỄN TRUNG CHÍNH
+                  </p>
+                  <p class="font-lato text-[14px] pgs mt-2">
+                    PGS.TS. Bác sĩ Ung bướu
+                  </p>
+                  <div class="flex justify-center items-center mt-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="size-4 star"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <p class="opacity-70 text-[12px] mt-2">
+                    4.8/5 (38 bình chọn)
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+                <div class="doc1 flex justify-center items-center">
+                  <div class="w-[60%]">
+                    <img src="/img/doc1.png" alt="" />
+                  </div>
+                </div>
+                <div class="text-center mt-5">
+                  <p class="font-lato font-bold text-[18px]">
+                    NGUYỄN TRUNG CHÍNH
+                  </p>
+                  <p class="font-lato text-[14px] pgs mt-2">
+                    PGS.TS. Bác sĩ Ung bướu
+                  </p>
+                  <div class="flex justify-center items-center mt-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="size-4 star"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="star size-4"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <p class="opacity-70 text-[12px] mt-2">
+                    4.8/5 (38 bình chọn)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="flex justify-between relative z-50">
+          <div class="-mt-60 btn-prev">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="rgba(255, 255, 255, 1)"
+              width="50px"
+              class="size-10 bt-doctor rounded-full border"
+            >
+              <g clip-path="url(#a)">
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z"
+                  clip-rule="evenodd"
+                />
+              </g>
+              <defs>
+                <clipPath id="a">
+                  <path d="M0 0h20v20H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="-mt-60 btn-next">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="white"
+              width="50px"
+              class="size-10 bt-doctor rounded-full border "
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="absolute top-40">
+        <img src="/img//Song.png" alt="" />
+      </div>
+    </section>
+    <!-- Cảm nhận -->
+    <section class="relative">
+      <div class="float-end mr-10 mt-10 md:block hidden">
+        <img src="/img/Union.png" alt="" />
+      </div>
+      
+      <div class="md:mt-40 mt-20 flex relative">
+       
+        <div class="absolute">
+          <img src="/img/bg-camnhan.png" alt="" />
+        </div>
+        <div class="mt-5 md:block hidden ">
+          <img src="/img/tamgiac.png" alt="" />
+      </div> 
+      </div>
+   
+      <div class="container mx-auto">
+        
+        <div class=" relative z-50 md:-top-20 top-[70px]">
+          <div class="xl:px-4 2xl:px-0">
+            <p class="font-lato text-[30px] md:text-[40px] font-bold text-white text-center md:text-left xl:ml-16 2xl:ml-0  ">
+              Cảm nhận của khách<br class="md:hidden block"> hàng sau khi<br class="md:block hidden"/>
+              sử dụng<br class="md:hidden block"> dịch vụ
+            </p>
+            <div class="float-end md:-mt-10 mt-3 flex space-x-5 mr-40 xl:mr-0" style="color: gray;">
+              <div class="btprev border  rounded-full bg-white drop-shadow-2xl i-cus p-3">
+                <i class="fa-solid fa-arrow-left fa-lg   "></i>
+              </div>
+              <div class="btnext border rounded-full bg-white drop-shadow-2xl p-3 i-cus">
+                <i class="fa-solid fa-arrow-right fa-lg "></i>
+              </div>
+            </div>
+          </div>
+          <div class="2xl:w-[calc(100%+1rem)] xl:w-[calc(100%+rem)] mt-20 xl:ml-0 ml-3 w-[94%] xl:px-4 2xl:px-0">
+            <div class="swiper service serviceSwiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                >
+                  <div>
+                    <img src="/img//back1.png" alt="" />
+                  </div>
+                  <div class="-mt-10 flex justify-center items-center">
+                    <img src="/img/ng1.png" alt="" />
+                  </div>
+                  <div class="text-center px-5">
+                    <p class="text-[18px] font-bold">Nguyễn Minh Ánh</p>
+                    <div class="flex justify-center items-center mt-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-4 star"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p class="font-semibold mt-3">
+                      Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng
+                      bình yên và an tâm khi thăm khám tại đây!
+                    </p>
+                    <p class="text-sm mt-2 mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit nulla etiam sed consequat dictumst viverra molestie
+                      tortor feugiat. Purus consequat, sapien diam nec. Egestas
+                      lacinia scelerisque ultrices vivamus adipiscing diam
+                      massa.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                >
+                  <div>
+                    <img src="/img//back2.png" alt="" />
+                  </div>
+                  <div class="-mt-10 flex justify-center items-center">
+                    <img src="/img/ng2.png" alt="" />
+                  </div>
+                  <div class="text-center px-5">
+                    <p class="text-[18px] font-bold">Nguyễn Minh Ánh</p>
+                    <div class="flex justify-center items-center mt-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-4 star"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p class="font-semibold mt-3">
+                      Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng
+                      bình yên và an tâm khi thăm khám tại đây!
+                    </p>
+                    <p class="text-sm mt-2 mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit nulla etiam sed consequat dictumst viverra molestie
+                      tortor feugiat. Purus consequat, sapien diam nec. Egestas
+                      lacinia scelerisque ultrices vivamus adipiscing diam
+                      massa.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                >
+                  <div>
+                    <img src="/img//back1.png" alt="" />
+                  </div>
+                  <div class="-mt-10 flex justify-center items-center">
+                    <img src="/img/ng3.png" alt="" />
+                  </div>
+                  <div class="text-center px-5">
+                    <p class="text-[18px] font-bold">Nguyễn Minh Ánh</p>
+                    <div class="flex justify-center items-center mt-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-4 star"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p class="font-semibold mt-3">
+                      Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng
+                      bình yên và an tâm khi thăm khám tại đây!
+                    </p>
+                    <p class="text-sm mt-2 mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit nulla etiam sed consequat dictumst viverra molestie
+                      tortor feugiat. Purus consequat, sapien diam nec. Egestas
+                      lacinia scelerisque ultrices vivamus adipiscing diam
+                      massa.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                >
+                  <div>
+                    <img src="/img//back1.png" alt="" />
+                  </div>
+                  <div class="-mt-10 flex justify-center items-center">
+                    <img src="/img/ng1.png" alt="" />
+                  </div>
+                  <div class="text-center px-5">
+                    <p class="text-[18px] font-bold">Nguyễn Minh Ánh</p>
+                    <div class="flex justify-center items-center mt-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-4 star"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p class="font-semibold mt-3">
+                      Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng
+                      bình yên và an tâm khi thăm khám tại đây!
+                    </p>
+                    <p class="text-sm mt-2 mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit nulla etiam sed consequat dictumst viverra molestie
+                      tortor feugiat. Purus consequat, sapien diam nec. Egestas
+                      lacinia scelerisque ultrices vivamus adipiscing diam
+                      massa.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                >
+                  <div>
+                    <img src="/img//back1.png" alt="" />
+                  </div>
+                  <div class="-mt-10 flex justify-center items-center">
+                    <img src="/img/ng1.png" alt="" />
+                  </div>
+                  <div class="text-center px-5">
+                    <p class="text-[18px] font-bold">Nguyễn Minh Ánh</p>
+                    <div class="flex justify-center items-center mt-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-4 star"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p class="font-semibold mt-3">
+                      Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng
+                      bình yên và an tâm khi thăm khám tại đây!
+                    </p>
+                    <p class="text-sm mt-2 mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit nulla etiam sed consequat dictumst viverra molestie
+                      tortor feugiat. Purus consequat, sapien diam nec. Egestas
+                      lacinia scelerisque ultrices vivamus adipiscing diam
+                      massa.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                >
+                  <div>
+                    <img src="/img//back2.png" alt="" />
+                  </div>
+                  <div class="-mt-10 flex justify-center items-center">
+                    <img src="/img/ng3.png" alt="" />
+                  </div>
+                  <div class="text-center px-5">
+                    <p class="text-[18px] font-bold">Nguyễn Minh Ánh</p>
+                    <div class="flex justify-center items-center mt-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-4 star"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="star size-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <p class="font-semibold mt-3">
+                      Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng
+                      bình yên và an tâm khi thăm khám tại đây!
+                    </p>
+                    <p class="text-sm mt-2 mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Velit nulla etiam sed consequat dictumst viverra molestie
+                      tortor feugiat. Purus consequat, sapien diam nec. Egestas
+                      lacinia scelerisque ultrices vivamus adipiscing diam
+                      massa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="float-end mr-20">
+      <img src="/img/Vector.png" alt="">
+    </div>
+    <!-- Câu hỏi -->
+    <section class="relative mt-20 xl:px-4 2xl:px-0">
+      <div class="container mx-auto xl:flex">
+        <div class="xl:w-[60%] mx-5 xl:mx-0">
+          <p class="md:text-[38px] text-[30px] font-bold font-lato text-center">Những câu hỏi thường gặp</p>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+          <div class="border-t mt-5">
+            <div class="box_show mt-5">
+              <div class="box_title flex items-center justify-between">
+                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M11.4 26.456V15.32H0.456V11.768H11.4V0.919998H14.952V11.768H26.088V15.32H14.952V26.456H11.4Z" fill="black"></path></svg></span><span class="minus-ic"><svg width="20" height="3" viewBox="0 0 28 3" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.472 3V0.632H27.48V3H0.472Z" fill="black"></path></svg></span></span>
+              </div>
+              <div class="box_des mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla<br> condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl<br> pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et,<br> dignissim amet sed orci at amet id nulla mauris. 
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="xl:w-[70%] mx-3 xl:mx-0 mt-20 xl:mt-0 ">
+          <p class="md:text-[38px] text-[27px] font-bold text-center">Bảng giá dịch vụ gói Ortho-K</p>
+
+          <div class="tab tab-items flex justify-center items-center mt-5 xl:ml-3 2xl:ml-0">
+            <ul class="flex items-stretch md:text-[18px] xl:text-[16px] text-[8px] font-semibold text-gray-500">
+                <li data-target="tab-items" data-electronic="tab-1">
+                    <a href="javascript:void(0)" class="px-3 or">
+                      ORTHO K - 01
+                    </a>
+                </li>
+                <li data-target="tab-items" data-electronic="tab-2">
+                    <a href="javascript:void(0)" class="px-3 or">
+                      ORTHO K - 02
+                    </a>
+                </li>
+                <li data-target="tab-items" data-electronic="tab-3">
+                  <a href="javascript:void(0)" class="px-3 or">
+                    ORTHO K - 03
+                  </a>
+              </li>
+              <li data-target="tab-items" data-electronic="tab-4">
+                <a href="javascript:void(0)" class="px-3 or">
+                  ORTHO K - 04
+                </a>
+            </li>
+            <li data-target="tab-items" data-electronic="tab-5">
+              <a href="javascript:void(0)" class="px-3 or">
+                ORTHO K - 05
+              </a>
+          </li>
+            </ul>
+        </div>
+        <div class="list-tab-items mt-3 flex justify-center items-center xl:ml-5 2xl:ml-0">
+            <div class="tab-content" data-target="tab-items" id="tab-1">
+                <img src="/img/bang.png" alt="">
+            </div>
+            <div class="tab-content " data-target="tab-items" id="tab-2">
+                <img src="/img/bang2.png" alt="">
+            </div>
+            <div class="tab-content " data-target="tab-items" id="tab-3">
+              <img src="/img/bang5.png" alt="">
+          </div>
+          <div class="tab-content " data-target="tab-items" id="tab-4">
+            <img src="/img/bang.png" alt="">
+        </div>
+        <div class="tab-content " data-target="tab-items" id="tab-5">
+          <img src="/img/bang5.png" alt="">
+      </div>
+        </div>
+        </div>
+      </div>
+      <div class="float-end">
+        <img src="/img/chamcham.png" alt="">
+      </div>
+    </section>
+    <!-- form -->
+     <section>
+      <div class="xl:pt-[37%] pt-[50%] lg:pt-[65%] bg-no-repeat bg-center bg-cover  relative top-20" style="background-image: url('/img//bg-sec6.jpg');">
+        <div class="container mx-auto flex justify-center items-center xl:block xl:px-4 2xl:px-0">
+          <div class="bg-2 absolute top-[15%] xl:top-[7%] 2xl:top-[20%] border rounded-lg mx-3 md:mx-0">
+            <div class="bg-2 text-white text-center my-5 mx-20">
+              <p class="font-lato md:text-[30px] text-[20px] font-bold">Đăng ký tư vấn miễn phí</p>
+              <p>Đặt hẹn ngay để nhận tư vấn và chúng tôi sẽ xếp lịch khám kịp thời!</p>
+            </div>
+            <div class="bg-white">
+              <form class="md:flex justify-center ">
+                <div class="md:w-1/2 mt-5 ">
+                   <div class="floating-label-group md:w-[90%] w-[80%] ">
+                    <input type="text" id="name" name="name" placeholder=" " required>
+                    <label for="name">Name</label>
+                  </div>
+                <div class="floating-label-group md:w-[90%] w-[80%] ">
+                    <input type="email" id="email" name="email" placeholder=" " required class="h-[10%]">
+                    <label for="email">Email</label>
+                </div>
+                <div class="floating-label-group md:w-[90%] w-[80%]">
+                    <input type="password" id="password" name="password" placeholder=" " required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="floating-label-group md:w-[90%] w-[80%] ">
+                    <input type="date" id="dob" name="dob" placeholder=" " required>
+                    <label for="dob">Registration date</label>
+                </div>
+                </div>
+                <div class="mt-5">
+                  <div class="floating-label-group md:w-[100%] w-[80%]">
+                    <input type="text" id="content" name="content" placeholder=" " required class="h-28 ">
+                    <label for="content">Nhập nội dung</label>
+                  </div>
+                  <div class="mb-4 flex">
+                    <div>
+                      <label class="inline-flex items-center">
+                        <input type="checkbox" id="not-a-robot" class="form-checkbox h-5 w-5 text-blue-600">
+                        <span class="ml-2 text-gray-700">Tôi không phải người máy</span>
+                    </label>
+                    </div>
+                    <div class="ml-2">
+                      <img src="/img/robot.png" alt="">
+                    </div>  
+                  </div>
+                  <a href="#" class="flex items-center justify-center rounded-full bg-yc bg-ho">
+                    <button type="submit" class=" text-white font-bold py-2 px-4  font-lato ">GỬI YÊU CẦU</button>
+                  </a>
+                </div>
+                
+            </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- footer -->
+     <section class="">
+      <div class="bg-foot overflow-hidden">
+        <div class="container xl:mx-auto xl:flex flex-wrap justify-between text-white text-center xl:text-left lg:mt-20 mt-40 xl:px-4 2xl:px-0">
+          <div >
+            <div class="flex xl:block justify-center items-center md:mt-10">
+              <img src="/img/Logo1.png" alt="" />
+            </div>
+            
+            <h1 class="text-lg font-semibold font-lato">
+              BỆNH VIỆN ĐA KHOA PHƯƠNG ĐÔNG
+            </h1>
+            <p class="font-lato md:text-base text-xs">
+              Lorem ipsum dolor sit amet, consectetur<br />
+              adipiscing elit. Urna sit morbi nisl contale<br />
+              consectetur pellentesque ullamcorper con<br />
+              viverra id cursus hendreritenim ultricies
+            </p>
+          </div>
+          <div>
+            <h1 class="md:text-[20px] text-lg font-bold font-lato mt-10">Thông tin liên hệ</h1>
+            <ul>
+              <li class="pb-3 font-lato md:text-base text-xs">
+                Địa chỉ:<span class="font-medium"
+                  >Số 9, Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</span
+                >
+              </li>
+              <li class="pb-3 font-lato md:text-base text-xs hover:text-blue-700">
+                <a href="https://mail.google.com/">
+                   Email:<span class=""
+                  >bvphuongdong@phuongdonghospital.vn</span
+                >
+                </a>
+               
+              </li>
+              <li class=" pb-3 font-lato md:text-base text-xs hover:text-blue-700">
+                <a href="https://mail.google.com/">info.benhvienphuongdong@gmail.com</a>
+                
+              </li>
+              <li class="md:text-base text-xs font-lato hover:text-blue-700">
+                <a href="tel:+19001806"
+                  >Tổng đài tư vấn:
+                  <span class="font-medium font-lato">19001806</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="md:text-[20px] font-bold font-lato text-lg mt-10">Giờ làm việc</h1>
+            <ul>
+              <li class="pb-3 font-lato md:text-base text-xs">Từ 7:00 - 19:00 từ Thứ 2 đến CN</li>
+              <li class="pb-3 font-lato md:text-base text-xs hover:text-blue-700">
+                <a href="tel:+0833015115">
+                  Cấp cứu 24/7: 0833 015 115
+                </a></li>
+              <li class="pb-3 font-lato md:text-base text-xs hover:text-blue-700">
+                <a href="tel:+0911615115">
+                  Hotline Tiêm chủng: 0911 615 115
+                </a></li>
+              <li class="pb-3 font-lato md:text-base text-xs hover:text-blue-700">
+                <a href="tel:+19001806">Hotline Hỗ trợ khách hàng: 1900 1806</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="md:text-[20px] font-bold font-lato text-lg mt-10">Theo dõi chúng tôi</h1>
+            <div>
+              <div class="flex xl:justify-between justify-center items-center space-x-2">
+                <a href="https://www.facebook.com/" class="border rounded-full 2xl:w-[50px] 2xl:h-[50px] xl:w-[45px] xl:h-[45px] flex justify-center items-center fb">
+                  <i class="fa-brands fa-facebook-f fa-2xl" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://www.youtube.com/" class="border rounded-full 2xl:w-[50px] 2xl:h-[50px] xl:w-[45px] xl:h-[45px] flex justify-center items-center ytb">
+                  <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+                </a>
+                <a href="https://www.tiktok.com/" class="border rounded-full 2xl:w-[50px] 2xl:h-[50px] xl:w-[45px] xl:h-[45px] flex justify-center items-center tt">
+                  <i class="fa-brands fa-tiktok fa-2xl " style="color: #ffffff;"></i>
+                </a>
+                
+              </div>
+              <div class="xl:block flex justify-center items-center">
+                <img src="/img/bct.png" class="pt-2" />
+              </div>
+            </div>
+        </div>
+        
+      </div>
+      <div class="text-white text-center py-5 border-t font-lato md:text-base text-xs">
+          <p>
+            © Copyright 2022 Bệnh Viện Đa khoa Phương Đông.<br class="md:hidden"> All rights reserved
+          </p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
