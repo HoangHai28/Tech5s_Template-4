@@ -38,11 +38,11 @@
     transition: 0.5s;
 }
 .bg-img {
-    background-image: url(/img/bg.png);
+    background-image: url(./img/bg.png);
     background-repeat: no-repeat;
 }
 .background-layer {
-    background-image: url('/img/green.png');
+    background-image: url('./img/green.png');
     background-repeat: no-repeat;
 }
 .bg-2 {
@@ -148,6 +148,11 @@ background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     color: #2DBEFC;
 
 }
+/* .icon-status {
+    color: red;
+    background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+
+} */
 
 .box_des {
     display: none;
@@ -241,3 +246,5 @@ background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     background: black; /* Color when hovering */
     transition: 0.3s;
   }
+
+
