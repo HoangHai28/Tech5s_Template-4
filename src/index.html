@@ -30,8 +30,8 @@
         <div class="">
           <img src="./img/logo.png" alt="" />
         </div>
-        <ul
-          id="myLinks"
+        <div >
+           <ul
           class="lg:flex font-semibold 2xl:text-[16px] xl:text-[14px] lg:text-[11px] justify-center items-center font-lato xl:space-x-7 lg:space-x-4 hidden"
         >
           <li class="bt-header hover:underline transition duration-700">
@@ -56,6 +56,54 @@
             <a href="#">Hình ảnh & video</a>
           </li>
         </ul>
+        </div>
+
+        <!-- mobile -->
+        <label  for="mobile-input" class="lg:hidden pr-10">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+            <path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+        </label>
+        <input type="checkbox" class="nav-input hidden" id="mobile-input">
+
+
+        <label  for="mobile-input" class="over-lay"></label>
+        <div class="nav-mobile">
+          <label  for="mobile-input" class="mobile-close">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>            
+          </label>
+          <div class="flex justify-center items-center mt-5">
+            <img src="./img/logo1.png" alt="">
+          </div>
+           <ul
+          class=" mobile-list text-center"
+        >
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Giới thiệu</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Đối tượng khách hàng</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Quy trình</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Bảng giá</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Cảm nhận của khách hàng</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Đội ngũ bác sĩ</a>
+          </li>
+          <li class="">
+            <a href="#" class="mobile-link hover:underline">Hình ảnh & video</a>
+          </li>
+        </ul>
+        </div>
+       
         <a
           href="#"
           class="lg:flex rounded-full justify-center items-center bg-bt drop-shadow-2xl 2xl:w-[11%] lg:w-[13%] h-auto hidden"
@@ -71,11 +119,8 @@
             Gọi 1900 1806
           </button>
         </a>
-        <div class="lg:hidden pr-10">
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
+       
+
       </div>
     </section>
     <!-- Baner -->
@@ -86,15 +131,15 @@
       <div class="lg:flex justify-center items-center xl:hidden">
         <div class="bg-img flex justify-center items-center">
         <img src="./img/imgbaner.png" class="hidden lg:block xl:hidden" />
-        <img src="./img/img-baner-2.png" class="sm:hidden block" />
+        <img src="./img/img-baner-2.png" class="lg:hidden block" />
 
       </div>
       </div>
       
-      <div class="container mx-auto xl:-mt-20 mt-20 ">
+      <div class="container mx-auto xl:-mt-20 mt-10 ">
         <div class="xl:flex">
           <div class="xl:mt-0 text-center xl:text-left xl:pl-4 2xl:pl-0">
-            <p class="xl:text-[55px] text-[40px] lg:text-[64px] font-bold font-lato">
+            <p class="xl:text-[55px] text-[30px] lg:text-[64px] font-bold font-lato">
               Hãy để đôi mắt là<br class="2xl:hidden block"> cửa sổ <br class="hidden 2xl:block" />
               của tâm hồn
             </p>
@@ -108,15 +153,15 @@
             </p>
             <p class="md:mt-10 text-lg font-bold mt-5 px-4 sm:px-0 ">
               Siêu khuyến mãi
-              <span class="august text-3xl sm:text-4xl font-bold">tháng 8</span>, giảm ngay
-              <span class="third text-3xl sm:text-4xl font-bold">30%</span> khi đăng ký tại
+              <span class="august text-2xl sm:text-4xl font-bold">tháng 8</span>, giảm ngay
+              <span class="third text-2xl sm:text-4xl font-bold">30%</span> khi đăng ký tại
               đây!
             </p>
             <div
               class="flex justify-center items-center xl:block rounded-full"
             >
               <div
-                class="mt-5 flex justify-between sign-up border xl:h-auto lg:h-[14%] xl:w-[90%] md:w-[60%] w-[90%]"
+                class="mt-5 flex justify-between sign-up border rounded-full xl:h-auto lg:h-[14%] xl:w-[90%] md:w-[60%] w-[90%]"
               >
                 <input
                   type="text"
@@ -156,7 +201,7 @@
     </section>
     <!-- Tầm quan trọng -->
     <section class="relative px-4 2xl:px-0">
-      <div class="absolute -top-40 left-20">
+      <div class="absolute -top-40 left-20 xl:block hidden">
         <img src="./img/green.png" />
       </div>
       <div class="container mx-auto lg:mt-80 xl:mt-20 -mt-10 relative">
@@ -169,7 +214,7 @@
             <div class="absolute right-0  top-[200px]">
               <img src="./img/Union.png" alt="" />
             </div>
-            <p class="xl:mt-0 lg:mt-2">
+            <p class="xl:mt-0 mt-2">
               Kính Ortho-K là phương pháp sử dụng kính áp tròng cứng được thiết
               kế đặc biệt với mỗi người để<br class="xl:block hidden" />
               định hình tạm thời giác mạc và cải thiện thị lực. Kính Ortho-K
@@ -186,7 +231,7 @@
             </p>
             <a
               href="#"
-              class="flex justify-center items-center bg-bt  rounded-full xl:w-[30%] lg:w-[20%] sm:w-[30%] w-[45%] mt-5 "
+              class="flex justify-center items-center bg-bt  rounded-full md:w-[26%] xl:w-[30%] lg:w-[20%] w-[60%] mt-5 "
             >
               <img src="./img/tuvan.png" alt="" />
               <button class="text-white pl-2 py-3">
@@ -301,7 +346,7 @@
               </div>
             </div>
         <div class="2xl:w-[calc(100%+1rem)] mx-3 xl:mx-0">
-          <div class="swiper people mySwiper mt-20">
+          <div class="swiper people mySwiper mt-10">
             <div class="swiper-wrapper">
               <div class="swiper-slide people-slide bg-2 bo">
                 <div class="flex justify-center items-center mt-2">
@@ -404,16 +449,16 @@
                 ưu điểm vượt trội sau
               </p>
             </div>
-            <div class="2xl:mt-10 mt-10 relative z-10 px-4 2xl:px-0 flex justify-center items-center">
-              <div class="flex-col  md:space-y-10 space-y-5 xl:mt-10  ">
+            <div class="2xl:mt-10  relative z-10 md:flex md:flex-row flex-col justify-center items-center">
+              <div class="flex-col px-3 2xl:px-0  lg:space-y-10 space-y-5 xl:mt-10  md:w-[50%] lg:w-auto">
                 <div
-                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5"
+                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5 lg:mt-0 mt-5"
                 >
                   <div class="flex justify-center items-center">
                     <img src="./img/traitim.png" alt="" />
                   </div>
                   <div class="text-center mt-5">
-                    <p class="font-semibold">Đội ngũ bác sĩ giàu kinh nghiệm</p>
+                    <p class="font-semibold ">Đội ngũ bác sĩ giàu kinh nghiệm</p>
                     <p class="mt-2">
                       Hiện nay, tại Bệnh viện Đa khoa Phương<br class="sm:block hidden" />
                       Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.
@@ -437,7 +482,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex-col ml-5 2xl:mt-20 xl:mt-10">
+              <div class="flex-col lg:ml-5 ml-3 2xl:mt-20 xl:mt-10 mt-5 pr-3 2xl:pr-0 md:w-[50%] lg:w-auto">
                 <div
                   class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5"
                 >
@@ -453,7 +498,7 @@
                   </div>
                 </div>
                 <div
-                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5 md:mt-10 mt-5 "
+                  class="bg-white shadow-inner hover-up rounded-lg transition-transform duration-300 ease-in-out border py-5 px-5 lg:mt-10 mt-5 "
                 >
                   <div class="flex justify-center items-center">
                     <img src="./img/cocnuoc.png" alt="" />
@@ -989,7 +1034,7 @@
         <img src="./img/Union.png" alt="" />
       </div>
       
-      <div class="md:mt-40 mt-20 flex relative">
+      <div class="md:mt-40 mt-20 xl:flex relative hidden">
        
         <div class="absolute">
           <img src="./img/bg-camnhan.png" alt="" />
@@ -1001,13 +1046,13 @@
    
       <div class="container mx-auto">
         
-        <div class=" relative z-50 md:-top-20 top-[70px]">
+        <div class=" xl:relative z-50 md:-top-20 top-[70px] mt-20 xl:mt-0">
           <div class="xl:px-4 2xl:px-0">
-            <p class="font-lato text-[30px] md:text-[40px] font-bold text-white text-center md:text-left ml-20 xl:ml-16 2xl:ml-0  ">
-              Cảm nhận của khách<br class="md:hidden block"> hàng sau khi<br class="md:block hidden"/>
-              sử dụng<br class="md:hidden block"> dịch vụ
+            <p class="font-lato text-[30px] md:text-[40px] font-bold xl:text-white text-center md:text-left xl:ml-16 2xl:ml-0 px-4 xl:px-0  ">
+              Cảm nhận của khách hàng sau khi<br class="xl:block hidden">
+              sử dụng dịch vụ
             </p>
-            <div class="float-end md:-mt-10 mt-3 flex space-x-5 mr-40 xl:mr-0" style="color: gray;">
+            <div class="xl:float-end xl:-mt-10 mt-3 flex justify-center items-center  space-x-5 px-4 xl:px-0" style="color: gray;">
               <div class="btprev border  rounded-full bg-white drop-shadow-2xl i-cus p-3">
                 <i class="fa-solid fa-arrow-left fa-lg   "></i>
               </div>
@@ -1552,14 +1597,14 @@
       <img src="./img/Vector.png" alt="">
     </div>
     <!-- Câu hỏi -->
-    <section class="relative mt-20 px-4 2xl:px-0">
+    <section class="relative mt-[140px] 2xl:mt-20 px-4 2xl:px-0">
       <div class="container mx-auto xl:flex">
         <div class="xl:w-[60%] ">
           <p class="md:text-[38px] text-[30px] font-bold font-lato text-center">Những câu hỏi thường gặp</p>
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">  
                     <defs>
                     <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1577,7 +1622,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1595,7 +1640,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1613,7 +1658,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> 
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1631,7 +1676,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> 
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1649,7 +1694,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> 
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1667,7 +1712,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1685,7 +1730,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1703,7 +1748,7 @@
           <div class="border-t mt-5">
             <div class="box_show mt-5">
               <div class="box_title flex items-center justify-between">
-                  <p class="text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
+                  <p class="md:text-[18px] font-semibold font-lato">Cách phân biệt giữa cảm cúm thông thường và covid-19?</p>
                   <span class="inline-block icon-status pt-1"><span class="plus-ic"><svg width="20" height="20" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"> 
                     <defs>
                       <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="100%" gradientUnits="userSpaceOnUse" >
@@ -1719,7 +1764,7 @@
           </div>
           </div>
         </div>
-        <div class="xl:w-[70%] mx-3 xl:mx-0 mt-20 xl:mt-0 ">
+        <div class="xl:w-[70%] mt-20 xl:mt-0 ">
           <p class="md:text-[38px] text-[27px] font-bold text-center">Bảng giá dịch vụ gói Ortho-K</p>
 
           <div class="tab tab-items flex justify-center items-center mt-5 xl:ml-3 2xl:ml-0">
@@ -1776,50 +1821,50 @@
     </section>
     <!-- form -->
      <section>
-      <div class="xl:pt-[37%] pt-[65%] bg-no-repeat bg-center bg-cover  relative top-20" style="background-image: url('./img//bg-sec6.jpg');">
+      <div class="xl:pt-[37%] md:pt-[60%] lg:pt-[50%] pt-[200%] bg-no-repeat lg:bg-center bg-cover  relative top-20" style="background-image: url('./img//bg-sec6.jpg');">
         <div class="container mx-auto flex justify-center items-center xl:block xl:px-4 2xl:px-0">
-          <div class="bg-2 absolute top-[7%] lg:top-[20%] xl:top-[7%] 2xl:top-[20%] border rounded-lg mx-3 md:mx-0">
-            <div class="bg-2 text-white text-center my-5 mx-20">
+          <div class="bg-2 absolute top-[5%] lg:top-[10%] xl:top-[7%] 2xl:top-[20%] border rounded-lg mx-3 md:mx-0">
+            <div class="bg-2 text-white text-center my-5 md:mx-20">
               <p class="font-lato md:text-[30px] text-[20px] font-bold">Đăng ký tư vấn miễn phí</p>
               <p>Đặt hẹn ngay để nhận tư vấn và chúng tôi sẽ xếp lịch khám kịp thời!</p>
             </div>
-            <div class="bg-white">
-              <form class="md:flex justify-center ">
-                <div class="md:w-1/2 mt-5 ">
-                   <div class="floating-label-group md:w-[90%] w-[80%] ">
-                    <input type="text" id="name" name="name" placeholder=" " required>
+            <div class="bg-white overflow-hidden flex justify-center items-center  sm:block">
+              <form class="md:flex justify-center w-[80%] sm:w-auto ">
+                <div class="md:w-1/2 mt-5">
+                   <div class="floating-label-group md:w-[90%] w-[100%] ">
+                    <input type="text" id="name" class="h-12 sm:h-auto" name="name" placeholder=" " required>
                     <label for="name">Name</label>
                   </div>
-                <div class="floating-label-group md:w-[90%] w-[80%] ">
-                    <input type="email" id="email" name="email" placeholder=" " required class="h-[10%]">
+                <div class="floating-label-group md:w-[90%] w-[100%] ">
+                    <input type="email" id="email" class="h-12 sm:h-auto" name="email" placeholder=" " required class="h-[10%]">
                     <label for="email">Email</label>
                 </div>
-                <div class="floating-label-group md:w-[90%] w-[80%]">
-                    <input type="password" id="password" name="password" placeholder=" " required>
+                <div class="floating-label-group md:w-[90%] w-[100%]">
+                    <input type="password" id="password" class="h-12 sm:h-auto" name="password" placeholder=" " required>
                     <label for="password">Password</label>
                 </div>
-                <div class="floating-label-group md:w-[90%] w-[80%] ">
-                    <input type="date" id="dob" name="dob" placeholder=" " required>
+                <div class="floating-label-group md:w-[90%] w-[100%] ">
+                    <input type="date" id="dob" class="h-12 sm:h-auto" name="dob" placeholder=" " required>
                     <label for="dob">Registration date</label>
                 </div>
                 </div>
                 <div class="mt-5">
-                  <div class="floating-label-group md:w-[100%] w-[80%]">
-                    <input type="text" id="content" name="content" placeholder=" " required class="h-28 ">
+                  <div class="floating-label-group md:w-[100%] w-[100%]">
+                    <input type="text" id="content" class="h-12 sm:h-36" name="content" placeholder=" " required class="h-28 ">
                     <label for="content">Nhập nội dung</label>
                   </div>
-                  <div class="mb-4 flex">
+                  <div class="mt-5 flex">
                     <div>
                       <label class="inline-flex items-center">
                         <input type="checkbox" id="not-a-robot" class="form-checkbox h-5 w-5 text-blue-600">
-                        <span class="ml-2 text-gray-700">Tôi không phải người máy</span>
+                        <span class="ml-2 text-gray-700 sm:text-base text-[14px]">Tôi không phải người máy</span>
                     </label>
                     </div>
                     <div class="ml-2">
                       <img src="./img/robot.png" alt="">
                     </div>  
                   </div>
-                  <a href="#" class="flex items-center justify-center rounded-full bg-yc bg-ho">
+                  <a href="#" class="flex items-center justify-center rounded-full bg-yc bg-ho mb-10 shadow-2xl mt-5 ">
                     <button type="submit" class=" text-white font-bold py-2 px-4  font-lato ">GỬI YÊU CẦU</button>
                   </a>
                 </div>
@@ -1844,9 +1889,9 @@
               BỆNH VIỆN ĐA KHOA PHƯƠNG ĐÔNG
             </h1>
             <p class="font-lato md:text-base text-xs">
-              Lorem ipsum dolor sit amet, consectetur<br />
-              adipiscing elit. Urna sit morbi nisl contale<br />
-              consectetur pellentesque ullamcorper con<br />
+              Lorem ipsum dolor sit amet, consectetur<br class="lg:hidden xl:block" />
+              adipiscing elit. Urna sit morbi nisl contale<br/>
+              consectetur pellentesque ullamcorper con<br class="lg:hidden xl:block" />
               viverra id cursus hendreritenim ultricies
             </p>
           </div>
