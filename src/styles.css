@@ -253,7 +253,7 @@ background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     padding: 1rem 0.5rem;
     font-size: 1rem;
     width: 100%;
-    border-radius: 0.375rem;
+    border-radius: 0.75rem;
 }
 .floating-label-group label {
     position: absolute;
@@ -276,16 +276,20 @@ background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     outline: none;
 }
 
-.bg-yc {
+/* .bg-yc {
     background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     transition: color 0.5s ease-in-out;
-}
+} */
 
-.bg-ho:hover {
-    background: linear-gradient(90deg, #2d8149 100%, #2DBEFC 0%);
-    transition: 0.5s ease-in-out;
+.bg-yc {
+    background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+    transition: background 0.5s ease, transform 0.5s ease; /* Hiệu ứng transition */
+  }
+  
+  .bg-yc:hover {
+    background: linear-gradient(90deg, #1686b6 0%, #148a3b 100%); /* Màu khi hover */
+  }
 
-}
   /* footer */
   .bg-foot {
     background: linear-gradient(90deg, #1CAB55 0%, #04A4EC 100%);
