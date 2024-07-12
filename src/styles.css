@@ -69,38 +69,39 @@
 
 .bg-bt {
     background: linear-gradient(180deg, #FFB469 0%, #E57709 100%);
+    box-shadow: 0px 8px 16px 0px rgba(229, 119, 9, 0.35);
+
     transition:  1s;
 }
 .bg-bt:hover {
     background: linear-gradient(180deg, #be5e26e3 100%, #E57709 100%);
     transition: 1s;
 }
-.bt-header:hover {
-    background: linear-gradient(135deg, #3EED8B 0%, #0A9949 100%);
+/* .bt-header:hover {
+    background: linear-gradient(135deg, #17964e 0%, #047234 100%);
     background-clip: text;
     color: transparent;
-}
+} */
 .august {
-    background: linear-gradient(180deg, #50C577 90%, #2DBEFC 100%);
-    background-clip: text;
-    color: transparent;
+    color: #41C2AE;
 }
 .third {
-    background: linear-gradient(90deg, #2DBEFC 100%, #50C577 0%);
-    background-clip: text;
-    color: transparent;
+    color: #39C0CE;
 }
-.sign-up {
+/* .sign-up {
     border-image-slice: 1;
     border-image-source: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%)
-}
+    
+} */
 .bg-sign-up {
     background: linear-gradient(135deg, #3EED8B 0%, #0A9949 100%);
-    transition: color 0.5s;
+    box-shadow: 0px 8px 16px 0px rgba(80, 197, 119, 0.35);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 .bg-sign-up:hover {
-    background: #04A4EC;
-    transition: 0.5s;
+    background: linear-gradient(135deg, #1686b6 0%, #148a3b 100%); /* Màu nền khi hover */
+      box-shadow: 0px 8px 16px 0px rgba(22, 134, 182, 0.35);
+    
 }
 .bg-img {
     background-image: url(./img/bg.png);
@@ -188,12 +189,11 @@
     width: 100%;
 }
 
-.doc-sec1 {
-    border-top-left-radius: 80px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 20px;
-    padding-bottom: 20px;
-    box-shadow: 0px 50px 50px -12px rgb(0 0 0 / 0.25);
+.doc-sec1:hover {
+    
+    box-shadow: 10px 10px 20px -1px rgb(0 0 0.2 / 0.25);
+    transform: scale(10);
+    transition: 0.5s;
 }
 
 .star {
@@ -233,14 +233,19 @@ background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
 }
 
 .tab-items ul li.active{
-    border-bottom: 2px solid;
-    border-color: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+    border-bottom: 1px solid;
+    border-color: rgb(23, 185, 23);
+    background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
+    background-clip: text;
+    color: transparent;
+    
 }
 
 .or:hover {
     background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
     background-clip: text;
     color: transparent;
+    text-decoration: underline;
 }
 
 

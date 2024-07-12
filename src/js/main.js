@@ -129,11 +129,15 @@ function myFunction() {
               spaceBetween: 30
             },
             1280: {
-              slidesPerView: 4,
+              slidesPerView: 3.3,
               spaceBetween: 30
             },
             1366: {
               slidesPerView: 3.5,
+              spaceBetween: 30
+            },
+            1536: {
+              slidesPerView: 3.8,
               spaceBetween: 30
             },
             

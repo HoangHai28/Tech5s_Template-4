@@ -26,33 +26,33 @@
   <body>  
     <!-- header -->
     <section class="relative z-50 px-4 2xl:px-0">
-      <div class="container flex justify-between xl:my-10 my-5 mx-auto topnav">
+      <div class="container flex justify-between items-center xl:my-10 my-5 mx-auto">
         <div class="">
           <img src="./img/logo.png" alt="" />
         </div>
         <div >
            <ul
-          class="lg:flex font-semibold 2xl:text-[16px] xl:text-[14px] lg:text-[11px] justify-center items-center font-lato xl:space-x-7 lg:space-x-4 hidden"
+          class="lg:flex font-semibold 2xl:text-[16px] xl:text-[14px] lg:text-[11px]  font-lato xl:space-x-7 lg:space-x-4 hidden"
         >
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500 ">
             <a href="#">Giới thiệu</a>
           </li>
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500">
             <a href="#">Đối tượng khách hàng</a>
           </li>
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500">
             <a href="#">Quy trình</a>
           </li>
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500">
             <a href="#">Bảng giá</a>
           </li>
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500">
             <a href="#">Cảm nhận của khách hàng</a>
           </li>
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500">
             <a href="#">Đội ngũ bác sĩ</a>
           </li>
-          <li class="bt-header hover:underline transition duration-700">
+          <li class="bt-header hover:underline hover:text-green-700 transition duration-500">
             <a href="#">Hình ảnh & video</a>
           </li>
         </ul>
@@ -106,10 +106,10 @@
        
         <a
           href="#"
-          class="lg:flex rounded-full justify-center items-center bg-bt drop-shadow-2xl 2xl:w-[11%] lg:w-[13%] h-auto hidden"
+          class="lg:flex rounded-full justify-center items-center bg-bt 2xl:w-[11%] lg:w-[13%] h-auto hidden py-1.5 "
         >
           <div
-            class="rounded-full bg-white w-[20%] h-[75%] flex justify-center items-center -ml-3"
+            class="rounded-full bg-white flex justify-center items-center py-1 px-1 -ml-3 "
           >
             <img src="./img/Group.png" />
           </div>
@@ -161,7 +161,7 @@
               class="flex justify-center items-center xl:block rounded-full"
             >
               <div
-                class="mt-5 flex justify-between sign-up border rounded-full xl:h-auto lg:h-[14%] xl:w-[90%] md:w-[60%] w-[90%]"
+                class="mt-5 flex justify-between sign-up border border-green-400 rounded-full xl:h-auto lg:h-[14%] xl:w-[90%] md:w-[60%] w-[90%]"
               >
                 <input
                   type="text"
@@ -184,7 +184,7 @@
             </div>
           </div>
           <div class="lg:-mt-60 mt-20 ">
-            <div class="bg-img xl:absolute top-0 right-0 xl:w-[45%] 2xl:w-auto">
+            <div class="bg-img xl:absolute z-30 top-0 right-0 xl:w-[45%] 2xl:w-auto">
               <div class="hidden 2xl:block  ">
                 <img src="./img/imgbaner.png" />
               </div>
@@ -319,7 +319,7 @@
       </div>
     </section>
     <!-- Lời khuyên -->
-    <section class="relative px-4 2xl:px-0">
+    <section class="relative px-4 xl:px-0">
       <div class="container md:mt-40 mt-10 mx-auto ">
         <div class="md:flex ">
           <div>
@@ -345,7 +345,7 @@
                 <i class="fa-solid fa-arrow-right fa-lg "></i>
               </div>
           </div>
-        <div class="2xl:w-[calc(100%+1rem)] mx-3 xl:mx-0">
+        <div class="2xl:w-[calc(100%+9rem)] xl:w-[calc(100%+2rem)] mx-3 xl:mx-0">
           <div class="swiper people mySwiper mt-10">
             <div class="swiper-wrapper">
               <div class="swiper-slide people-slide bg-2 bo">
@@ -357,7 +357,7 @@
                     Người bị cận thị
                   </p>
                   <p class="font-lato mt-2">
-                    Người bị cận thị (dưới 10 độ) không kèm hoặc kèm<br />
+                    Người bị cận thị (dưới 10 độ) không kèm hoặc kèm
                     loạn thị từ 3 độ trở xuống
                   </p>
                 </div>
@@ -563,23 +563,62 @@
     </section>
     <!-- Đội ngũ bác sĩ -->
     <section class="relative">
-      <div class="container xl:mx-auto ">
+      <div class="container xl:mx-auto h-full">
         <div class="lg:flex xl:mt-[100px] lg:ml-10 xl:ml-0 hidden">
           <img src="./img/Vector.png" class="float-start" />
         </div>
         <p class="font-lato font-bold text-[30px] md:text-[40px] mx-auto text-center mt-10">
           Đội ngũ bác sĩ của chúng tôi
         </p>
-        <div class=" mt-10 px-4 2xl:px-0">
+        <div class=" mt-10 px-4 2xl:px-0 relative">
           <div class="swiper doctor doctorSwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+            <!-- <div class="flex justify-between relative top-60 z-50  "> -->
+          <div class=" btn-prev absolute z-50 top-1/2 -left-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="rgba(255, 255, 255, 1)"
+
+              class="size-10 bt-doctor rounded-full border shadow-2xl"
+            >
+              <g clip-path="url(#a)">
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z"
+                  clip-rule="evenodd"
+                />
+              </g>
+              <defs>
+                <clipPath id="a">
+                  <path d="M0 0h20v20H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+
+          <div class=" btn-next absolute right-0 z-50 top-1/2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="white"
+              class="size-10 bt-doctor rounded-full border "
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        <!-- </div> -->
+            <div class="swiper-wrapper pb-10">
+              <div class="swiper-slide doctor-slide border  bg-white rounded-b-lg rounded-tl-[80px] rounded-tr-[10px] pb-5 doc-sec1">
                 <div class="doc1 flex justify-center items-center">
                   <div class="w-[60%]">
                     <img src="./img/doc1.png" alt="" />
                   </div>
                 </div>
-                <div class="text-center mt-5">
+                <div class="text-center mt-5 ">
                   <p class="font-lato font-bold text-[18px]">
                     NGUYỄN TRUNG CHÍNH
                   </p>
@@ -654,7 +693,7 @@
                   </p>
                 </div>
               </div>
-              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+              <div class="swiper-slide doctor-slide border pb-5 bg-white rounded-b-lg rounded-tl-[80px] rounded-tr-[10px] doc-sec1">
                 <div class="doc1 flex justify-center items-center">
                   <div class="w-[60%]">
                     <img src="./img/doc2.png" alt="" />
@@ -735,7 +774,7 @@
                   </p>
                 </div>
               </div>
-              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+              <div class="swiper-slide doctor-slide border pb-5 bg-white rounded-b-lg rounded-tl-[80px] rounded-tr-[10px] doc-sec1">
                 <div class="doc1 flex justify-center items-center">
                   <div class="w-[60%]">
                     <img src="./img/doc3.png" alt="" />
@@ -816,7 +855,7 @@
                   </p>
                 </div>
               </div>
-              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+              <div class="swiper-slide doctor-slide border pb-5 bg-white rounded-b-lg rounded-tl-[80px] rounded-tr-[10px] doc-sec1">
                 <div class="doc1 flex justify-center items-center">
                   <div class="w-[60%]">
                     <img src="./img/doc4.png" alt="" />
@@ -897,7 +936,7 @@
                   </p>
                 </div>
               </div>
-              <div class="swiper-slide doctor-slide border doc-sec1 bg-white">
+              <div class="swiper-slide doctor-slide border pb-5 bg-white rounded-b-lg rounded-tl-[80px] rounded-tr-[10px] doc-sec1">
                 <div class="doc1 flex justify-center items-center">
                   <div class="w-[60%]">
                     <img src="./img/doc1.png" alt="" />
@@ -983,63 +1022,24 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div class="flex justify-between relative z-50">
-          <div class="-mt-60 btn-prev">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="rgba(255, 255, 255, 1)"
-              width="50px"
-              class="size-10 bt-doctor rounded-full border"
-            >
-              <g clip-path="url(#a)">
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z"
-                  clip-rule="evenodd"
-                />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path d="M0 0h20v20H0z" />
-                </clipPath>
-              </defs>
-            </svg>
-          </div>
-
-          <div class="-mt-60 btn-next">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="white"
-              width="50px"
-              class="size-10 bt-doctor rounded-full border "
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </div>
-        </div>
+        
       </div>
       <div class="absolute top-40">
         <img src="./img//Song.png" alt="" />
       </div>
     </section>
     <!-- Cảm nhận -->
-    <section class="relative">
+    <section class="relative mt-20">
       <div class="float-end mr-10 mt-10 md:block hidden">
         <img src="./img/Union.png" alt="" />
       </div>
       
-      <div class="md:mt-40 mt-20 xl:flex relative hidden">
+      <div class=" xl:flex absolute hidden">
        
-        <div class="absolute">
+        <div class="">
           <img src="./img/bg-camnhan.png" alt="" />
         </div>
-        <div class="mt-5 md:block hidden  ">
+        <div class="mt-5 ml-5 md:block hidden  ">
           <img src="./img/tamgiac.png" alt="" />
       </div> 
 
@@ -1047,26 +1047,26 @@
    
       <div class="container mx-auto">
         
-        <div class=" xl:relative z-50 md:-top-20 top-[70px] mt-20 xl:mt-0">
+        <div class=" xl:relative top-20">
           <div class="xl:px-4 2xl:px-0">
             <p class="font-lato text-[30px] md:text-[40px] font-bold xl:text-white text-center md:text-left xl:ml-16 2xl:ml-0 px-4 xl:px-0  ">
               Cảm nhận của khách hàng sau khi<br class="xl:block hidden">
               sử dụng dịch vụ
             </p>
             <div class="xl:float-end xl:-mt-10 mt-3 flex justify-center items-center  space-x-5 px-4 xl:px-0" style="color: gray;">
-              <div class="btprev border  rounded-full bg-white drop-shadow-2xl i-cus p-3">
+              <div class="btprev border  rounded-full bg-white drop-shadow-2xl i-cus py-4 px-4">
                 <i class="fa-solid fa-arrow-left fa-lg   "></i>
               </div>
-              <div class="btnext border rounded-full bg-white drop-shadow-2xl p-3 i-cus">
+              <div class="btnext border rounded-full bg-white drop-shadow-2xl py-4 px-4 i-cus">
                 <i class="fa-solid fa-arrow-right fa-lg "></i>
               </div>
             </div>
           </div>
-          <div class="2xl:w-[calc(100%+1rem)] xl:w-[calc(100%+rem)] mt-20 w-[94%] px-4 2xl:px-0">
+          <div class="2xl:w-[calc(100%+9rem)] xl:w-[calc(100%+2rem)] mt-20 w-[94%] px-4 2xl:px-0">
             <div class="swiper service serviceSwiper">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper pb-10">
                 <div
-                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg shadow-lg pb-5"
                 >
                   <div>
                     <img src="./img//back1.png" alt="" />
@@ -1153,7 +1153,7 @@
                   </div>
                 </div>
                 <div
-                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg shadow-lg pb-5"
                 >
                   <div>
                     <img src="./img//back2.png" alt="" />
@@ -1240,7 +1240,7 @@
                   </div>
                 </div>
                 <div
-                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg shadow-lg pb-5"
                 >
                   <div>
                     <img src="./img//back1.png" alt="" />
@@ -1327,7 +1327,7 @@
                   </div>
                 </div>
                 <div
-                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg shadow-lg pb-5"
                 >
                   <div>
                     <img src="./img//back1.png" alt="" />
@@ -1414,7 +1414,7 @@
                   </div>
                 </div>
                 <div
-                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg shadow-lg pb-5"
                 >
                   <div>
                     <img src="./img//back1.png" alt="" />
@@ -1501,7 +1501,7 @@
                   </div>
                 </div>
                 <div
-                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg drop-shadow-2xl"
+                  class="swiper-slide service-slide bg-white rounded-t-xl rounded-b-lg shadow-lg pb-5"
                 >
                   <div>
                     <img src="./img//back2.png" alt="" />
@@ -1594,11 +1594,11 @@
         </div>
       </div>
     </section>
-    <div class="float-end mr-20">
+    <div class="float-end mr-20 xl:mt-20 lg:block hidden">
       <img src="./img/Vector.png" alt="">
     </div>
     <!-- Câu hỏi -->
-    <section class="relative mt-[140px] 2xl:mt-20 px-4 2xl:px-0">
+    <section class="relative mt-10 2xl:mt-60 px-4 2xl:px-0">
       <div class="container mx-auto xl:flex">
         <div class="xl:w-[60%] ">
           <p class="md:text-[38px] text-[30px] font-bold font-lato text-center">Những câu hỏi thường gặp</p>
@@ -1850,9 +1850,10 @@
                 </div>
                 </div>
                 <div class="lg:w-[40%] mt-5 lg:-ml-10">
-                  <div class="floating-label-group w-[100%]">
-                    <input type="text" id="content" class="h-12 sm:h-36" name="content" placeholder=" " required class="h-28 ">
-                    <label for="content">Nhập nội dung</label>
+                  <div class="floating-label-group">
+                    <textarea type="text" id="content" class="h-12 sm:h-36 border focus:outline-none w-full rounded-[0.75rem] p-3" name="content" placeholder=" Nhập nội dung" required class="h-28 "></textarea>
+                    <!-- <input type="text" id="content" class="h-12 sm:h-36" name="content" placeholder=" " required class="h-28 "> -->
+                    <!-- <label for="content">Nhập nội dung</label> -->
                   </div>
                   <div class="mt-5 flex">
                     <div>
