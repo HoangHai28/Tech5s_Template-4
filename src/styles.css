@@ -70,12 +70,16 @@
 .bg-bt {
     background: linear-gradient(180deg, #FFB469 0%, #E57709 100%);
     box-shadow: 0px 8px 16px 0px rgba(229, 119, 9, 0.35);
-
-    transition:  1s;
+    background-color: #E57709;
+    transition-duration: 1s;
+    
+    
 }
 .bg-bt:hover {
-    background: linear-gradient(180deg, #be5e26e3 100%, #E57709 100%);
-    transition: 1s;
+    background: #08aa8f;
+    box-shadow: none;
+
+    
 }
 /* .bt-header:hover {
     background: linear-gradient(135deg, #17964e 0%, #047234 100%);
@@ -96,11 +100,11 @@
 .bg-sign-up {
     background: linear-gradient(135deg, #3EED8B 0%, #0A9949 100%);
     box-shadow: 0px 8px 16px 0px rgba(80, 197, 119, 0.35);
-    transition: background 0.3s ease, box-shadow 0.3s ease;
+    transition-duration: 0.5s;
 }
 .bg-sign-up:hover {
-    background: linear-gradient(135deg, #1686b6 0%, #148a3b 100%); /* Màu nền khi hover */
-      box-shadow: 0px 8px 16px 0px rgba(22, 134, 182, 0.35);
+    background: #0da78d;
+    box-shadow: none;
     
 }
 .bg-img {
@@ -288,11 +292,11 @@ background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
 
 .bg-yc {
     background: linear-gradient(90deg, #50C577 0%, #2DBEFC 100%);
-    transition: background 0.5s ease, transform 0.5s ease; /* Hiệu ứng transition */
+    transition-duration: 1s;
   }
   
   .bg-yc:hover {
-    background: linear-gradient(90deg, #1686b6 0%, #148a3b 100%); /* Màu khi hover */
+    background: #08aa8f;/* Màu khi hover */
   }
 
   /* footer */
