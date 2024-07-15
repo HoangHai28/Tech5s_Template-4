@@ -5,7 +5,7 @@ module.exports = {
     container: {
       center: true, // Căn giữa container
       padding: {
-        xl: '1rem', // Padding cho màn hình rất lớn
+        xl: '0rem', // Padding cho màn hình rất lớn
         '2xl': '0rem', // Padding cho màn hình 2xl
       },
     },
