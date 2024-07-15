@@ -121,11 +121,11 @@ function myFunction() {
             },
             // when window width is >= 640px
             640: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 20
             },
             1024: {
-              slidesPerView: 3.5,
+              slidesPerView: 3,
               spaceBetween: 30
             },
             1280: {
