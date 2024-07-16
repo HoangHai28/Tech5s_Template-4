@@ -632,10 +632,6 @@ video {
   position: relative;
 }
 
-.-top-40 {
-  top: -10rem;
-}
-
 .bottom-10 {
   bottom: 2.5rem;
 }
@@ -1690,6 +1686,10 @@ video {
     right: -1rem;
   }
 
+  .xl\:-top-\[200px\] {
+    top: -200px;
+  }
+
   .xl\:left-\[10\%\] {
     left: 10%;
   }
@@ -1825,6 +1825,54 @@ video {
     width: calc(100% + rem);
   }
 
+  .xl\:w-\[calc\(100\%\+1rem\)\] {
+    width: calc(100% + 1rem);
+  }
+
+  .xl\:w-\[calc\(100\%\)\] {
+    width: calc(100%);
+  }
+
+  .xl\:w-\[calc\(100\%\+2rem\)\] {
+    width: calc(100% + 2rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+5rem\)\] {
+    width: calc(100% + 5rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.5rem\)\] {
+    width: calc(100% + 0.5rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.8rem\)\] {
+    width: calc(100% + 0.8rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.7rem\)\] {
+    width: calc(100% + 0.7rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.6rem\)\] {
+    width: calc(100% + 0.6rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.4rem\)\] {
+    width: calc(100% + 0.4rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.2rem\)\] {
+    width: calc(100% + 0.2rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.1rem\)\] {
+    width: calc(100% + 0.1rem);
+  }
+
+  .xl\:w-\[calc\(100\%\+0\.01rem\)\] {
+    width: calc(100% + 0.01rem);
+  }
+
   .xl\:justify-between {
     justify-content: space-between;
   }
@@ -1843,11 +1891,6 @@ video {
   .xl\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .xl\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .xl\:py-2 {
@@ -1899,12 +1942,24 @@ video {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:-top-40 {
+    top: -10rem;
+  }
+
   .\32xl\:left-\[19\%\] {
     left: 19%;
   }
 
   .\32xl\:top-\[20\%\] {
     top: 20%;
+  }
+
+  .\32xl\:-right-4 {
+    right: -1rem;
+  }
+
+  .\32xl\:-left-4 {
+    left: -1rem;
   }
 
   .\32xl\:ml-0 {
