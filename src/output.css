@@ -696,6 +696,22 @@ video {
   top: 60%;
 }
 
+.right-2 {
+  right: 0.5rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -1934,6 +1950,14 @@ video {
 
   .\32xl\:top-\[20\%\] {
     top: 20%;
+  }
+
+  .\32xl\:-left-5 {
+    left: -1.25rem;
+  }
+
+  .\32xl\:-right-5 {
+    right: -1.25rem;
   }
 
   .\32xl\:mx-0 {
