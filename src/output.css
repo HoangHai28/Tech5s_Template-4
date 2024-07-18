@@ -1619,6 +1619,10 @@ video {
     margin-top: 20rem;
   }
 
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .lg\:block {
     display: block;
   }
