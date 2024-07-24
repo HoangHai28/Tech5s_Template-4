@@ -2033,6 +2033,16 @@ video {
          column-gap: 230px;
   }
 
+  .xl\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
+  .xl\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+  }
+
   .xl\:space-x-7 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.75rem * var(--tw-space-x-reverse));
@@ -2186,6 +2196,11 @@ video {
 
   .\32xl\:w-auto {
     width: auto;
+  }
+
+  .\32xl\:gap-x-\[230px\] {
+    -moz-column-gap: 230px;
+         column-gap: 230px;
   }
 
   .\32xl\:px-0 {
